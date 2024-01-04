@@ -53,6 +53,9 @@ module.exports = {
         gridAutoColumns: {
           '2fr': 'minmax(3fr, 2fr)',
         },
+        zIndex: {
+          '100': '100',
+        },
         gridColumn: {
           'span-2': 'span 2 / span 3',
         }

@@ -70,12 +70,12 @@ export default function Header() {
   }, [inputVal]);
 
   return (
-    <div className="dark:text-white text-black bg-gradient-to-r  dark:from-black dark:to-blue-900 from-blue-500 to-cyan-500 ">
+    <div className="dark:text-white  justify-center    z-100 text-black bg-gradient-to-r  dark:from-black dark:to-blue-900 from-blue-500 to-cyan-500 ">
       <nav className="border-b-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center ">
-              <div className="flex-shrink-0 text-5xl">
+              <div className="flex-shrink-0 text-5xl ">
                 <a href="/" className="text-white ">
                   Quotify
                 </a>
@@ -124,7 +124,7 @@ export default function Header() {
                                 
               <ModeToggle/>
 <div className="p-5"></div>
-      <div className="text-x">4/1/2024</div>
+      <div className="text-x text-white ">4/1/2024</div>
               </div>
             </div>
             <div className="md:hidden  flex items-center">
